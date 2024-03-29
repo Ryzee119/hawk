@@ -1,0 +1,6 @@
+eda:
+  type: kicad
+  pcb: hardware/hawk.kicad_pcb
+bom: .kitspace/bom.csv
+color: black
+site: https://github.com/Ryzee119/hawk
