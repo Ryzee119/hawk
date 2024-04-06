@@ -4,6 +4,7 @@
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
@@ -14,7 +15,8 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
+fp-info-cache*
+\#auto_saved_files*
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -25,4 +27,11 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+hardware/*.csv
+hardware/gerbers
+
+
+# Firmware
+.vscode
+.pio
+*.map

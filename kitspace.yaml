@@ -1,6 +1,8 @@
+site: https://github.com/ryzee119/hawk
 eda:
   type: kicad
   pcb: hardware/hawk.kicad_pcb
+gerbers: .kitspace/hawk-gerber.zip
 bom: .kitspace/bom.csv
 color: black
 site: https://github.com/Ryzee119/hawk

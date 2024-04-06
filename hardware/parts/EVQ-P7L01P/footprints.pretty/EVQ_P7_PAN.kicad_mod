@@ -1,6 +1,6 @@
 (footprint "EVQ_P7_PAN" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (tags "EVQ-P7A01P ")
+  (tags "EVQ-P7L01P ")
   (attr smd)
   (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -72,7 +72,7 @@
   (pad "1*" smd rect (at 2.032 -0.740001) (size 1.2446 0.6604) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e7e2ff98-a97c-4e6b-8133-9e66f4a5a54d))
   (pad "2" smd rect (at -2.032 0.740001) (size 1.2446 0.6604) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0ae48f7e-0900-4615-a435-98b591d2e380))
   (pad "2*" smd rect (at 2.032 0.740001) (size 1.2446 0.6604) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 47460f0d-4567-495a-8115-604473fce7de))
-  (model "${KIPRJMOD}/parts/EVQ_P7A01P/EVQ-P7A01P.step"
+  (model "${KIPRJMOD}/parts/EVQ-P7L01P/EVQ-P7L01P.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -1,0 +1,29 @@
+name: Hawk
+
+on: [push, pull_request]
+
+jobs:
+  Hawk:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+
+    - name: Compile code
+      run: |
+        python -m pip install --upgrade pip
+        pip install platformio
+        platformio run
+
+    - if: github.event_name == 'push' 
+      name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Hawk
+        path: |
+          .pio/build/hawk/firmware.elf
+          .pio/build/hawk/firmware.bin
