@@ -16,7 +16,7 @@ It provides feature parity with the original communicator with the following dif
 * Volume and microphone gain adjustments will be saved internally. You can reset these to default by holding the button down for 8 seconds.
 
 ### Assembly
-* See [Kitspace](https://kitspace.org/boards/github.com/ryzee119/hawk/) for BOM, PCB ordering and assembly information.
+* See [Kitspace](https://master.staging.kitspace.dev/Ryzee119/hawk) for BOM, PCB ordering and assembly information.
 * See [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FRyzee119%2Fhawk%2Ftree%2Fmaster%2Fhardware) for schematic view.
 
 ### Compilation
