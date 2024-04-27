@@ -9,6 +9,7 @@ It provides feature parity with the original communicator with the following dif
 * The volume wheel is replaced with a button. Volume is indicated by LED brightness.
 
 ### Usage
+* When installing Hawk into your controller, it must be installed in the slot closest to you.
 * Press the button to increment the volume. Once maximum volume is reached, it will cycle back to zero.
 * Hold the button for 1 second to mute and disable the microphone input (LED will flash at 1Hz).
 * Hold the button 2 seconds to enter microphone gain adjustment mode (LED will flash at 4Hz).
