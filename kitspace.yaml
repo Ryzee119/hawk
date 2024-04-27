@@ -1,7 +1,8 @@
+summary: Hawk - Open Source Xbox Live Communicator
 site: https://github.com/ryzee119/hawk
 eda:
   type: kicad
   pcb: hardware/hawk.kicad_pcb
-gerbers: .kitspace/hawk-gerber.zip
+gerbers: .kitspace/gerbers
 bom: .kitspace/bom.csv
 color: black
