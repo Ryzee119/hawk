@@ -1,6 +1,6 @@
 ## Hawk - Open Source Xbox Live Communicator
 
-This project is an open source replacement of the [Microsoft Xbox Xbox Live Communicator](https://xbox.fandom.com/wiki/Xbox_LIVE_Headset) utilizing modern components and custom open-source firmware.
+This project is an open source replacement of the [Microsoft Xbox Live Communicator](https://xbox.fandom.com/wiki/Xbox_LIVE_Headset) utilizing modern components and custom open-source firmware.
 
 <p align="center"><img src="./.kitspace/pcb_render.png" alt="hawk!" width="90%"/></p>
 
