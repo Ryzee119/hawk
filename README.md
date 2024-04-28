@@ -41,6 +41,8 @@ It provides feature parity with the original communicator with the following dif
   * Adjust the volume by pressing the button until the LED is at its maximum brightness. Unfortunately, it is already compiled to the maximum allowable by Hawk. If it is still too quiet, your headset's impedance may be too low.
 * Does this work on modern controller adapters (ogx360, wingman etc)?
   * Not really, but kind of. To do this, you must connect a USB 1.1 compliant hub to the Xbox player port. Your controller then connects to port 1 of this hub and Hawk to port 2.
+* LED just flashes constantly when connected
+  * This means the main IC cannot communicate with the audio codec on Hawk. This is likely a soldering issue.
 
 ### Attribution
 * [Board outline](https://github.com/Zeigren/OXC)
