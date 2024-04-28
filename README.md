@@ -30,6 +30,18 @@ It provides feature parity with the original communicator with the following dif
 * USB DFU. Connect xbox controller to your PCB, then hold the Hawk button down while inserting it into the controller to enter DFU mode. Program with [STM32Cubeprogrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
 * ST-Link interface (5 pin header available on PCB)
 
+### FAQ
+* What is the pinout of the headphone jack?
+ * Hawk's headphone jack is wired as per [CTIA standard TRRS](https://upload.wikimedia.org/wikipedia/commons/e/ee/3.5mm_TRRS_phone_connector_with_CTIA_standard.png). There is another less common standard called OMTP. This will not work but adapters are available.
+* It doesn't fit in my controller slot.
+ * PCB should be manufactured with 1.2mm thickness. Most fabrication houses default to 1.6mm so be careful!
+* Microphone is really quiet.
+ * You can increase the microphone gain above default. Hold the Hawk button down for more than 2 seconds to enter gain adjustment mode. The LED will blink 4 times per second to show it is in the right mode then press the button to increase the gain. Hold for 1 second to exit. If this is still too quiet, you can modify the `MAX_MICROPHONE_GAIN` variable and recompile the code to bump it up even higher.
+* Speaker is really quiet
+ * Adjust the volume by pressing the button until the LED is at its maximum brightness. Unfortunately, it is already compiled to the maximum allowable by Hawk. If it is still too quiet, your headset's impedance may be too low.
+* Does this work on modern controller adapters (ogx360, wingman etc)?
+ * Not really, but kind of. To do this, you must connect a USB 1.1 compliant hub to the Xbox player port. Your controller then connects to port 1 of this hub and Hawk to port 2.
+
 ### Attribution
 * [Board outline](https://github.com/Zeigren/OXC)
 * [EEPROM emulation code](https://github.com/nimaltd/ee)
