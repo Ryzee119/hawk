@@ -113,6 +113,12 @@ int main(void) {
 
     if (max9860_init(&max9860, &hi2c1, MCO_FREQ) == false) {
         io_puts("MAX9860 INIT FAILED\n", NULL);
+        while (1) {
+            set_led_brightness(100);
+            HAL_Delay(100);
+            set_led_brightness(0);
+            HAL_Delay(100);
+        }
     }
 
     // Setup audio codec
