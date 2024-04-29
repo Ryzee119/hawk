@@ -27,6 +27,7 @@ It provides feature parity with the original communicator with the following dif
 * Hit build on the Platform IO toolbar (✓).
 
 ### Programming
+* [Compile](https://github.com/Ryzee119/hawk?tab=readme-ov-file#compilation) or [Download](https://github.com/Ryzee119/hawk/releases) the pre-built firmware image.
 * USB DFU. Connect xbox controller to your PCB, then hold the Hawk button down while inserting it into the controller to enter DFU mode. Program with [STM32Cubeprogrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
 * ST-Link interface (5 pin header available on PCB)
 
