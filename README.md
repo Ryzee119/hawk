@@ -44,6 +44,8 @@ It provides feature parity with the original communicator with the following dif
   * Not really, but kind of. To do this, you must connect a USB 1.1 compliant hub to the Xbox player port. Your controller then connects to port 1 of this hub and Hawk to port 2.
 * LED just flashes constantly when connected
   * This means the main IC cannot communicate with the audio codec on Hawk. This is likely a soldering issue.
+* `Error: Database: There's no active configuration for this device.` when programming.
+  * Try an earlier revision of STM32CubeProgrammer. Users have reported some success with `v2.5.0`.
 
 ### Attribution
 * [Board outline](https://github.com/Zeigren/OXC)
