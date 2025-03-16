@@ -19,6 +19,7 @@ It provides feature parity with the original communicator with the following dif
 * **When ordering PCB thickness should be 1.2mm!**
 * See [Kitspace](https://master.staging.kitspace.dev/Ryzee119/hawk) for BOM, PCB ordering and assembly information.
 * See [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FRyzee119%2Fhawk%2Ftree%2Fmaster%2Fhardware) for schematic view.
+* See [Tracespace](https://tracespace.io/view/?boardUrl=https://raw.githubusercontent.com/Ryzee119/hawk/refs/heads/master/.kitspace/hawk-gerber.zip) for Gerber view.
 
 ### Compilation
 * Download and install [Visual Studio Code](https://code.visualstudio.com/).
